@@ -21,6 +21,9 @@ Fetches the orderbook with a depth of 50 orders per side
 
 The data is ordered by price, order sell starting from lowest price and order buy starting from the highest price.
 
+**Channel**
+$SYMBOL.depth => eg. btcidr.depth
+
 **Response Parameter**
 |Parameter|Type|Comment|
 |-|-|-|
@@ -61,6 +64,9 @@ The data is ordered by price, order sell starting from lowest price and order bu
 ### Trade
 Get real-time trading information.
 
+**Channel**
+$SYMBOL.trade => eg. btcidr.trade
+
 **Response Parameter**
 |Parameter|Type|Comment|
 |-|-|-|
@@ -88,6 +94,9 @@ Get real-time trading information.
 
 ### Market Summaries
 Get real-time summaries for all coin
+
+**Channel**
+market.summaries
 
 **Response Parameter**
 |Parameter|Type|Comment|
@@ -145,4 +154,3 @@ Get real-time summaries for all coin
 
 ### Market External
 ...
-
